@@ -1,0 +1,74 @@
+.recipe-wrap-img {
+  width: 400px;
+  height: 400px;
+}
+
+.recipe-box-left {
+  flex: 1;
+}
+
+.recipe-title-ingredients {
+  margin: 0;
+  text-align: center;
+  color: wheat;
+}
+
+.recipe-box-right {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.recipe-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.recipe-title {
+  color: wheat;
+}
+
+.recipe-strong {
+  color: wheat;
+}
+
+p {
+  color: #d57d1f;
+}
+
+.recipe-box {
+  display: flex;
+}
+
+.recipe-table-td {
+  font-size: 1.4em;
+  color: wheat;
+}
+
+td {
+  color: #d57d1f;
+  padding: 2px;
+}
+
+.recipe-table {
+  width: 100%;
+}
+
+.recipe-tbody {
+  border: 2px solid green;
+}
+
+.td {
+  color: wheat;
+}
+
+.recipe-youtube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-video {
+  color: wheat;
+  margin: 10px;
+}

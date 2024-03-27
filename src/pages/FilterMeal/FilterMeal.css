@@ -1,0 +1,43 @@
+.product-filter-meal {
+  width: 100%;
+  max-width: 100%;
+}
+
+.product-filter-meal-img {
+  width: 400px;
+  height: 400px;
+}
+
+.product-filter-strong {
+  margin: 0px;
+  color: wheat;
+}
+
+.product-name-video {
+  margin: 0px;
+  color: wheat;
+}
+.product-title-ingredients {
+  margin: 0px;
+  color: wheat;
+}
+
+.product-filter-recipe-youtube {
+  display: flex;
+  flex: 2;
+}
+.product-title-ingredients-wrap {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.product-filter-meal {
+  flex: 1;
+}
+
+.product-table-youtube {
+  display: flex;
+  flex: 2;
+}

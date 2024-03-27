@@ -1,0 +1,46 @@
+.component-img {
+  width: 290px;
+  height: 290px;
+  cursor: pointer;
+}
+
+.component-img-src {
+  width: 100%;
+  max-width: 100%;
+}
+
+.component-wrap {
+  box-sizing: border-box;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px;
+}
+
+.component-strMeal-link {
+  text-decoration: none;
+}
+
+.component-strMeal {
+  color: wheat;
+}
+
+.component-strCategory {
+  color: rgb(244, 104, 104);
+}
+
+.component-strArea {
+  color: rgb(244, 104, 104);
+}
+
+.component-strMeal:hover {
+  cursor: pointer;
+  border-radius: 3px;
+  background: #c52d2f;
+  color: white;
+}
+
+.component-link-strMeal {
+  text-decoration: none;
+}

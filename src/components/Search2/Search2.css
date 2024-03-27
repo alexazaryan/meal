@@ -1,0 +1,19 @@
+.search2-wrap {
+  display: flex;
+}
+
+.search2-wrap-search {
+  margin: auto;
+}
+
+.search2-input {
+  padding: 10px 10px;
+  border-radius: 7px;
+  margin: 3px;
+}
+
+.search2-btn {
+  padding: 10px 10px;
+  border-radius: 7px;
+  margin: 3px;
+}

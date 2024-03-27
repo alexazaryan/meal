@@ -1,0 +1,48 @@
+.wrap {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 5px;
+}
+
+.meal-box {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrap-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.meal-img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.strCategory-h3 {
+  color: wheat;
+}
+
+.link {
+  margin: 7px;
+}
+
+.link-meal {
+  text-decoration: none;
+  color: rgb(244, 104, 104);
+}
+
+.link-meal:hover {
+  border-radius: 3px;
+  padding: 5px;
+  background: #c52d2f;
+  color: white;
+}
+
+.meal-title {
+  color: wheat;
+}

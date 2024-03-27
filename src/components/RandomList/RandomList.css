@@ -1,0 +1,51 @@
+.wrap-box-random {
+  display: flex;
+}
+
+.wrap-random-lost-left {
+  flex: 1;
+}
+
+.wrap-random-lost-left {
+  flex: 1;
+}
+
+.random-lost-img {
+  width: 400px;
+  height: 400px;
+}
+
+.random-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.random-strong {
+  color: wheat;
+}
+
+.random-box-right {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.random-title-ingredients {
+  margin: 0;
+  text-align: center;
+  color: wheat;
+}
+
+.random-table {
+  width: 100%;
+}
+
+.random-table-td {
+  font-size: 1.4em;
+  color: wheat;
+}
+
+td {
+  color: #d57d1f;
+  padding: 2px;
+}
