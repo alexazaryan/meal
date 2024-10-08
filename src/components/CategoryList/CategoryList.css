@@ -1,0 +1,5 @@
+.wrap__box__gi {
+  display: flex;
+
+  flex-wrap: wrap;
+}

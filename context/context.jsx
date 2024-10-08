@@ -9,6 +9,7 @@ const initialState = {
   loading: true,
   findProductBySearch: [],
 };
+// console.log(loading);
 
 export const ContextProvider = ({ children }) => {
   const [value, dispatch] = useReducer(reducer, initialState);

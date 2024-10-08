@@ -12,9 +12,11 @@
 .component-wrap {
   box-sizing: border-box;
   display: flex;
-  display: inline-block;
   flex-direction: column;
   text-align: center;
+  margin: 5px;
+  flex: 0 0 24%;
+  margin: auto;
   margin: 5px;
 }
 
@@ -43,4 +45,13 @@
 
 .component-link-strMeal {
   text-decoration: none;
+}
+
+/* ===========s1 */
+
+.s1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
 }

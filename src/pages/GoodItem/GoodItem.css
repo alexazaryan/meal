@@ -1,8 +1,18 @@
 .wrap {
   display: inline-block;
   box-sizing: border-box;
-  width: 25%;
   padding: 5px;
+
+  border-radius: 8px; /* Закруглённые углы для мягкости */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тень */
+  transition: 0.5s;
+}
+
+.wrap:hover {
+  border-radius: 10px;
+  transform: scale(1.1);
+  background-color: rgb(102, 98, 90);
+  /* border: 2px solid red; */
 }
 
 .wrap-category {
@@ -46,6 +56,7 @@
   color: white;
 }
 
-.link-strCategoryThumb-img:hover {
+/* .link-strCategoryThumb-img:hover {
   padding: 7px;
-}
+  transition: 0.5s;
+} */

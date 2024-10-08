@@ -28,7 +28,7 @@ export default function Header() {
 
         <ul className="nav navbar-nav">
           {/* searchComponent  */}
-          <li className="header-random">
+          <li className="header-random search-components">
             <Link className="btn-search-component" to="/searchComponent">
               Search components
             </Link>

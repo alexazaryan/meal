@@ -8,7 +8,7 @@
   align-items: center;
   margin: auto;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .navbar-nav {
@@ -19,10 +19,13 @@
 li {
   list-style-type: none;
   margin: 10px;
+  /* margin: auto;
+  padding: 20px; */
 }
 
 .navbar-brand {
   width: 317px;
+  min-width: 317px;
   height: 44px;
   cursor: pointer;
 }
@@ -71,3 +74,24 @@ li {
   text-decoration: none;
 }
 /* end random */
+
+/* ============================= */
+@media (max-width: 980px) {
+  .search {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .search-components {
+    display: none;
+  }
+
+  .navbar-nav,
+  li {
+    margin: auto;
+    padding: 20px;
+  }
+}

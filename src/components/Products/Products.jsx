@@ -5,7 +5,7 @@ import Product from "./Product";
 export default function Products() {
   const { findProductBySearch } = useContext(FoodContext);
   return (
-    <div>
+    <div className="s1">
       {findProductBySearch.map((item) => (
         <Product key={item.idMeal} {...item} />
       ))}
