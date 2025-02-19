@@ -10,8 +10,6 @@ import SearchCategories from "../../components/Search/Search";
 import "./Home.css";
 
 export default function Home() {
-  //
-
   // Array object
   const [catalog, cetCatalog] = useState([]);
   // console.log(getAllCategories);

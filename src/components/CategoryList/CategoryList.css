@@ -1,5 +1,6 @@
 .wrap__box__gi {
   display: flex;
-
   flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 1rem;
 }

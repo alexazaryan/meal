@@ -1,0 +1,5 @@
+.wrap-meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}

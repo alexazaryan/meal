@@ -1,9 +1,13 @@
-.wrap {
-  
-  display: inline-block;
+.meal-wrap {
   box-sizing: border-box;
-  width: 25%;
+  flex: 0 0 25%;
   padding: 5px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.meal-wrap:hover {
+  background-color: #5b3e24;
+  transform: scale(1.05);
 }
 
 .meal-box {
@@ -46,4 +50,22 @@
 
 .meal-title {
   color: wheat;
+}
+
+/* ============================= */
+@media (max-width: 992px) {
+  .meal-wrap {
+    flex: 0 0 33%;
+  }
+}
+@media (max-width: 768px) {
+  .meal-wrap {
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 460px) {
+  .meal-wrap {
+    flex: 0 0 100%;
+    padding: 1rem;
+  }
 }

@@ -5,7 +5,7 @@ import "./Meal.css";
 
 export default function Meal({ strMeal, strMealThumb, idMeal }) {
   return (
-    <div className="wrap">
+    <div className="meal-wrap">
       <div className="meal-box">
         <div className="wrap-img">
           <Link className="link-meal-img" to={`/meal/${idMeal}`}>

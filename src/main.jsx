@@ -18,9 +18,8 @@ import "./index.css";
 const router = createBrowserRouter(
   [
     {
-      // <Header> & <Footer>
       path: "/",
-      element: <MainLayout />,
+      element: <MainLayout />, // <Header> & <Footer>
       children: [
         {
           index: true,
@@ -57,7 +56,6 @@ const router = createBrowserRouter(
           path: "/filterMeal/:id",
           element: <FilterMeal />,
         },
-        //
       ],
     },
   ],
